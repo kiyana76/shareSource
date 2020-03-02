@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ورود</title>
+    <link rel="stylesheet" href="../login.css">
+</head>
+<body><!--تمام لینک های داخل منو باید تا وقتی لاگین نکرده وارد صفحه لاگین شوند!!!!!!!!!!!!-->
+<div id="container">
+    <div id="header">
+        <ul id="sign_ul">
+            <li class="sign_li"><button id="sign_up" class="button_sign"><a href="../signup.php">ساخت حساب کاربری</a></button></li>
+            <li class="sign_li"><button  class="button_sign"><a href="../login.html">ورود</a></button></li>
+            <li id="icon"><img src="unvarm.gif" alt="icon"></li>
+        </ul>
+    </div>
+    <div id="menu">
+        <ul class="menu_ul">
+            <li class="menu_li"><a href="login.html">خانه</a></li>
+            <li class="menu_li"><a href="login.html">جزوات</a></li>
+            <li class="menu_li"><a href="login.html">فیلم های آموزشی</a></li>
+            <li class="menu_li"><a href="login.html">نمونه سوال</a></li>
+            <li class="menu_li"><a href="login.html">سوالات کنکور</a></li>
+            <li class="menu_li"><a href="login.html">کتب</a></li>
+            <li class="menu_li dropdown">آپلود
+                <div class="dropdown-content">
+                    <a href="login.html">جزوه</a>
+                    <a href="login.html">نمونه سوال</a>
+                    <a href="login.html">کتاب</a>
+                    <a href="login.html">سوال کنکور</a>
+                    <a href="login.html">فیلم آموزشی</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="content" class="content">
+    <div class="form_div">
+        <h3>ورود به حساب کاربری</h3>
+        <form action="sign_in.php" method="post">
+            <input type="email" name="email" placeholder="ایمیل" class="login_info">
+            <br>
+            <input type="password" name="pass" placeholder="رمز ورود" class="login_info">
+            <div class="remember">
+                <input type="checkbox" value="remember" >مرا به خاطر بسپار
+            </div>
+            <p style="color: red">*رمز ورود یا ایمیل اشتباه وارد شده است.</p>
+            <p style="color: red">*در صورت نداشتن حساب کاربری حساب کاربری خود را بسازید.</p>
+            <input type="submit" value="ورود" class="submit_button">
+        </form>
+    </div>
+</div>
+<div id="footer" class="footer">
+    <div id="footer_right" class="footer_right">
+        <h5>خدمات الکترونیکی</h5>
+        <ul class="footer_ul">
+            <li class="footer_li"><a href="http://edu.usc.ac.ir/">سیستم آموزشی گلستان</a></li>
+            <li class="footer_li"><a href="http://mail.usc.ac.ir/">پست الکترونیکی</a></li>
+            <li class="footer_li"><a href="http://uscconf.ir/">کنفرانس های دانشگاه</a></li>
+            <li class="footer_li"><a href="http://oa.usc.ac.ir/FarzinSoft/eOrgan/Login/LoginFrm.aspx?Rnd=5:52:38%20PM&GSN=1">اتوماسیون اداری فرزین</a></li>
+            <li class="footer_li"><a href="http://food.usc.ac.ir/">اتوماسیون تغذیه</a></li>
+            <li class="footer_li"><a href="http://journal.usc.ac.ir/fa">سامانه نشریات</a></li>
+            <li class="footer_li"><a href="http://lib.usc.ac.ir/">کتابخانه دیجیتال</a></li>
+            <li class="footer_li"><a href="http://sinapress.ir/">خبرگزاری سیناپرس</a></li>
+        </ul>
+    </div>
+    <div id="footer_center" class="footer_center">
+        <h5>پیوند های بیرونی</h5>
+        <ul class="footer_ul">
+            <li class="footer_li"><a href="http://old.usc.ac.ir/IPPWebV1C035/Persian_WebUI/Templates/WebSiteTemplate1/WebSiteFile1183.aspx">نشریات علمی جهاد دانشگاهی</a></li>
+            <li class="footer_li"><a href="https://www.msrt.ir/">وزارت علوم و فناوری</a></li>
+            <li class="footer_li"><a href="http://www.behdasht.gov.ir/">وزارت بهداشت,درمان و آموزش پزشکی</a></li>
+            <li class="footer_li"><a href="http://sanjesh.org/">سازمان سنجش و آموزش کشور</a></li>
+            <li class="footer_li"><a href="http://www.acecr.ac.ir/">جهاد دانشگاهی</a></li>
+            <li class="footer_li"><a href="http://old.usc.ac.ir/IPPWebV1C035/Persian_WebUI/Templates/WebSiteTemplate1/WebSiteFile1045.aspx">شعب دانشگاه علم و فرهنگ</a></li>
+            <li class="footer_li"><a href="http://old.usc.ac.ir/IPPWebV1C035/Persian_WebUI/Templates/WebSiteTemplate1/WebSiteFile1019.aspx">دانشگاه ها و مراکز آموزش عالی</a></li>
+            <li class="footer_li"><a href="https://iueam.ir/">نشریه اقتصاد و مدیریت شهری</a></li>
+            <li class="footer_li"><a href="http://old.usc.ac.ir/IPPWebV1C035/Persian_WebUI/Templates/WebSiteTemplate1/WebSiteFile1018.aspx">موتور های جست و جو</a></li>
+            <li class="footer_li"><a href="https://t.me/USCNEWSLINE">کانال تلگرام دانشگاه</a></li>
+            <li class="footer_li"><a href="http://usc.ac.ir/news/5a48945a03e89e2deb8b4567/staticpage">مراکز جهاد جهاد دانشگاهی</a></li>
+        </ul>
+    </div>
+    <div id="footer_left" class="footer_left">
+        <img src="logo2.jpg">
+        <p>ساختمان مرکزی:<br>
+            بلوار اشرفی اصفهانی - نرسیده به پل اتوبان همت - خیابان شهید قموشی -<br> خیابان بهار - دانشگاه علم و فرهنگ</p>
+        <ul>
+            <li>صندوق پستی:‌ ۸۷۱-۱۳۱۴۵</li>
+            <li> کدپستی: ۱۴۶۱۹۶۸۱۵۱</li>
+            <li> تلفن: ۴۴۲۳۸۱۷۱</li>
+            <li>نمابر: ۴۴۲۱۴۷۵۰</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
