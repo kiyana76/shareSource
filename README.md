@@ -5,7 +5,7 @@ this project is content managment system for resource of university.
 ## Getting Started
 
 after clone project, extract in a folder e.g. ,'project'. 
-create a Alias and attach project file to your alias. 
+create a Alias and connect project file to your alias. 
 after that in phpmyadmin username 'root' and password '' select MYSQL and login. 
 create a database 'jozveh_db'. 
 after that in jozveh_db select import and choose jozveh_db.sql from project folder. 
